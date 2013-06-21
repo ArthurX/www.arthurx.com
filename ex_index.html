@@ -1,0 +1,42 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+   <title><!-- put title here --></title>
+   <link href="/static/style.css" rel="stylesheet" type="text/css" media="screen" />
+</head>
+<body>
+   <div id="header">
+      <!-- put your header here -->
+   </div>
+ 
+   <div id="content">
+
+Welcome here.
+
+<p><h1><br><br>Dresden<br></h1>
+<img src="Dresden/PaintingsArtsleepingDresden4visitor720.jpg">
+
+
+<p><b> The last day of the "KunstlerMeile" in Dresden. <br>
+Art sleeping, tired after 3 days live painting.</b>
+
+      <!-- this is where content will be loaded -->
+ 
+      {% if page %}
+         {% include page %}
+      {% else %}
+         {% include "main.html" %}
+      {% endif %}
+ 
+   </div>
+ 
+   <div id="sidebar">
+      <!-- put sidebar stuff here -->
+   </div>
+ 
+   <div id="footer">
+      <!-- put footer stuff here -->
+   </div>
+</body>
+</html>

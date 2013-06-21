@@ -1,0 +1,29 @@
+application: arthurx
+version: 1
+runtime: python
+api_version: 1
+
+handlers:
+
+
+
+- url: (.*)/
+  static_files: static_files\1/index.html
+  upload: static_files/index.html 
+
+
+- url: /(.*).php
+  static_files: static_files/\1.html
+  upload: static_files/(.*).html
+
+
+- url: /
+  static_dir: static_files
+
+
+- url: /.*
+  script: myapp.py
+
+
+default_expiration: "0d 1h"
+
