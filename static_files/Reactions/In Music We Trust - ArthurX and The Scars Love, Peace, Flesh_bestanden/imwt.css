@@ -1,0 +1,30 @@
+.nu {
+	TEXT-DECORATION: none
+}
+.small {
+	FONT-SIZE: 8pt
+}
+.boxc {
+	FONT-SIZE: 10pt; FONT-FAMILY: arial,helvetica,sans-serif; BACKGROUND-COLOR: #cccccc
+}
+.box {
+	FONT-SIZE: 10pt; FONT-FAMILY: courier new,monospace; BACKGROUND-COLOR: #cccccc
+}
+.bg1 {
+	FONT-SIZE: 10pt; COLOR: #ff0066; LINE-HEIGHT: 140%; BACKGROUND-COLOR: #c6c6c6
+}
+.bg2 {
+	FONT-SIZE: 10pt; COLOR: #ff0066; LINE-HEIGHT: 140%; BACKGROUND-COLOR: #c0c0c0
+}
+.sean {
+	BORDER-LEFT-COLOR: #ffcc99; BORDER-BOTTOM-COLOR: #ffcc99; BORDER-TOP-COLOR: #ffcc99; BORDER-RIGHT-COLOR: #ffcc99
+}
+.luth {
+	BORDER-LEFT-COLOR: #003399; BORDER-BOTTOM-COLOR: #003399; BORDER-TOP-COLOR: #003399; BORDER-RIGHT-COLOR: #003399
+}
+.joed {
+	BORDER-LEFT-COLOR: #ffffcc; BORDER-BOTTOM-COLOR: #ffffcc; BORDER-TOP-COLOR: #ffffcc; BORDER-RIGHT-COLOR: #ffffcc
+}
+.chri {
+	BORDER-LEFT-COLOR: #ffcccc; BORDER-BOTTOM-COLOR: #ffcccc; BORDER-TOP-COLOR: #ffcccc; BORDER-RIGHT-COLOR: #ffcccc
+}

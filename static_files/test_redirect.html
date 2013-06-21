@@ -1,0 +1,210 @@
+<!doctype html public "-//w3c//dtd html 3.2//en">
+
+
+
+<html>
+
+<HEAD> 
+
+  <LINK REL="icon" HREF="images/mozilla-16.png" TYPE="image/png"> 
+
+ <link rel="shortcut icon" href="favicon.ico">
+
+
+
+  <title></title>
+
+  <meta name="keywords" content="">
+
+  <meta name="Generator" content="Dev-PHP 2.0.12">
+
+
+
+<SCRIPT LANGUAGE="JavaScript">
+
+
+
+<!--SetCookie('animal', 'null', exp);
+
+<!-- Begin
+
+
+
+var expDays = 30;
+
+var exp = new Date(); 
+
+exp.setTime(exp.getTime() + (expDays*24*60*60*1000));
+
+
+
+function getCookieVal (offset) {  
+
+var endstr = document.cookie.indexOf (";", offset);  
+
+if (endstr == -1)    
+
+endstr = document.cookie.length;  
+
+return unescape(document.cookie.substring(offset, endstr));
+
+}
+
+function GetCookie (name) {  
+
+var arg = name + "=";  
+
+var alen = arg.length;  
+
+var clen = document.cookie.length;  
+
+var i = 0;  
+
+while (i < clen) {    
+
+var j = i + alen;    
+
+if (document.cookie.substring(i, j) == arg)      
+
+return getCookieVal (j);    
+
+i = document.cookie.indexOf(" ", i) + 1;    
+
+if (i == 0) break;   
+
+}  
+
+return null;
+
+}
+
+function SetCookie (name, value) {  
+
+var argv = SetCookie.arguments;  
+
+var argc = SetCookie.arguments.length;  
+
+var expires = (argc > 2) ? argv[2] : null;  
+
+var path = (argc > 3) ? argv[3] : null;  
+
+var domain = (argc > 4) ? argv[4] : null;  
+
+var secure = (argc > 5) ? argv[5] : false;  
+
+document.cookie = name + "=" + escape (value) + 
+
+((expires == null) ? "" : ("; expires=" + expires.toGMTString())) + 
+
+((path == null) ? "" : ("; path=" + path)) +  
+
+((domain == null) ? "" : ("; domain=" + domain)) +    
+
+((secure == true) ? "; secure" : "");
+
+}
+
+function DeleteCookie (name) {  
+
+var exp = new Date();  
+
+exp.setTime (exp.getTime() - 1);  
+
+var cval = GetCookie (name);  
+
+document.cookie = name + "=" + cval + "; expires=" + exp.toGMTString();
+
+}
+
+
+
+var favorite = GetCookie('animal');
+
+
+
+if (favorite != null) {
+
+switch (favorite) {
+
+case 'cat' : 	url = 'Architecture.html'; // change these!
+
+	     	break;
+
+case 'dog' : 	url = 'dog.html'; 
+
+	     	break;
+
+case 'gerbil' : url = 'gerbil.html';
+
+		break;
+
+case 'gopher' : url = 'gopher.html';
+
+		break;
+
+}
+
+window.location.href = url;
+
+}
+
+//  End -->
+
+</script>
+
+
+
+</head>
+
+<body bgcolor="c0c0c0" text="000000" link="0000ff" vlink="800080" alink="ff0000">
+
+
+
+
+
+
+
+
+
+
+
+<center>
+
+<form>
+
+<table><tr><td>
+
+Please choose your Favorite Pet:<br>
+
+<input type=checkbox name="cat" onClick="SetCookie('animal', this.name, exp);">Cat<br>
+
+<input type=checkbox name="dog" onClick="SetCookie('animal', this.name, exp);">Dog<br>
+
+<input type=checkbox name="gerbil" onClick="SetCookie('animal', this.name, exp);">Gerbil<br>
+
+<input type=checkbox name="gopher" onClick="SetCookie('animal', this.name, exp);">Gopher<br>
+
+</td></tr>
+
+</table>
+
+</form>
+
+</center>
+
+
+
+<p><center>
+
+<font face="arial, helvetica" size="-2">Free JavaScripts provided<br>
+
+by <a href="http://javascriptsource.com">The JavaScript Source</a></font>
+
+</center><p>
+
+
+
+</body>
+
+</html>
+

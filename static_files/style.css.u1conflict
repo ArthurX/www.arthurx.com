@@ -1,0 +1,95 @@
+BODY  { background: white; color: black ; font-family:"Times New Roman" ;font-size:14pt }
+
+div.Navtor {position:absolute; left:1px; top:141px; width:250px; height:780px; z-index:4}
+
+div.Main {position:absolute; left:270px; top:141px; width:900px; height:1200px; z-index:2 ; text-align: center  }
+
+div.Main_2 {position:absolute; left:965px; top:341px; width:800px; height:1200px; z-index:2  }
+
+div.Main_3 {position:absolute; left:1685px; top:141px; width:800px; height:1200px; z-index:2  }
+
+div.TopBanner {position:absolute; left:1px; top:1px; width:2080px; height:140px; z-index:2 ;font-size:60pt }
+
+div.RightTop {position:absolute; left:900px; top:1px; width:2080px; height:140px; z-index:2 ;font-size:60pt }
+
+div.Quote {position:absolute; left:1159px; top:141px; width:200px;  z-index:3 ;text-align: center; font-size : 15px }
+
+div.GoogleAds {position:absolute; left:1150px; top:435px; width:160px; height:600px ;  z-index:3 }
+
+
+div.photobody {text-align:center; font-size:100%; font-style:italic; border: blue solid; padding: 30px; margin: 35px; width:400px; background-color:black;}
+div.photobody500 {text-align:center; font-size:100%; font-style:italic; border: blue solid; padding: 30px; margin: 35px; width:500px; background-color:black;}								
+div.photobody	img {width: 100%;}
+
+div.fright { float: right; }
+
+div.fleft { float: left; }
+
+
+
+
+
+
+.songnames { font-size:12pt ; font-family:"Times New Roman" ; color:#001fee ; vertical-align:bottom }
+
+TD#cell1  { width: 222em ; border: 22px solid black;background: blue }
+
+TD#cell2  { width:500px; border: 22px solid black;background: red }
+
+TD#cell3  { width:200px; border: 22px solid black;background: black ; text-align:center}
+
+
+
+
+
+
+
+
+
+
+
+h1     { color: #0702ca ; font-family:"Times New Roman" ;font-size:36pt }
+
+input  { background: white; color: black ;font-family:"Times New Roman" ;font-size:14pt }
+
+textarea  { background: white; color: black ;font-family:"Times New Roman" ;font-size:14pt }
+
+
+
+div.SongText_Index {position:absolute; left:270px; top:200px; width:150px; height:1200px; z-index:2}
+
+div.SongText {position:absolute; left:500px; top:200px; width:800px; height:1200px; z-index:2}
+
+div.SongText_Image {position:absolute; left:1px; top:1000px; width:600px; height:1200px; z-index:1}
+
+
+
+
+
+
+
+a:link {color:black ; background-color:transparent; underline:no}
+
+a:visited {color:black ; background-color:transparent;}
+
+a:hover {color:black ; background-color:#0538ff;}
+
+
+
+
+
+
+
+a.imagelink { background-color:transparent}
+
+a.imagelink:visited { background-color:transparent}
+
+a.imagelink:hover { background-color:transparent}
+
+
+
+
+
+
+
+

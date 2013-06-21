@@ -1,0 +1,194 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN"><html>
+
+<HEAD>
+
+  <LINK REL="icon" HREF="images/mozilla-16.png" TYPE="image/png">
+
+ <link rel="shortcut icon" href="favicon.ico">
+
+<LINK REL=StyleSheet HREF="style.css" TYPE="text/css" MEDIA=screen>
+
+<STYLE>
+
+<!--
+
+.songnames { font-size:12pt ; font-family:"Times New Roman" ; color:001fee ; vertical-align:bottom }
+
+TD#cell1  {  border: 22px solid black;background: blue ; align:center}
+
+TD#cell2  {  border: 22px solid black;background: red }
+
+TD#cell3 {  border: 22px solid black;   background: black }
+
+table { font-family:"Times New Roman" ;font-size:14pt}
+
+
+
+
+
+
+
+-->
+
+</STYLE>
+
+<TITLE>ArthurX: Artist, Rocker, Painter.</TITLE>
+
+</HEAD>
+
+<?php
+
+//  Include Top Banner   ************************************************
+
+
+
+include("Top_Banner.inc");
+
+?>
+
+
+<div class="Main">
+
+
+
+
+<table>
+
+
+<tr><td></td><td id=cell2>
+<h2><center><br><br> Book ArthurX: <br>Paintings, Poems, Songs<br><br></center></h2></td></tr>
+
+
+<tr><td></td><td id=cell3><img src="News/Ready_Book370Wight.jpg"></td></tr>
+
+<tr><TD id=cell1><br> <a href=Book/01_Chapter_Beginning_TOC_Introduction_Book_ArthurX.pdf><h2>Chapter One</h2></a><br>&nbsp </td>
+<td id=cell2><br>     <a href=Book/01_Chapter_Beginning_TOC_Introduction_Book_ArthurX.pdf><h2>Introduction</h2></a><br>&nbsp </td>
+<td id=cell3>         <a href=Book/01_Chapter_Beginning_TOC_Introduction_Book_ArthurX.pdf><img src="Paintings/Paintings_Seperate/20YearsAfter600contrast2_140Height.jpg"></a> </td></tr>
+
+<tr><TD id=cell1><br> <a href=Book/Chapter_Two_Bienale_Firence_Book_ArthurX.pdf><h2>Chapter Two</h2></a><br>&nbsp </td>
+<td id=cell2><br>     <a href=Book/Chapter_Two_Bienale_Firence_Book_ArthurX.pdf><h2>Bienale di Firence</h2></a><br>&nbsp </td>
+<td id=cell3>         <a href=Book/Chapter_Two_Bienale_Firence_Book_ArthurX.pdf><img src="Paintings/Biennale_Florence_photos/MuseumWomanDigitaalNodust140Height.jpg"></a> </td></tr>
+
+<tr><TD id=cell1><br> <a href=Book/Chapter_Three_Charcoal_Portraits_Book_ArthurX.pdf><h2>Chapter Three</h2></a><br>&nbsp </td>
+<td id=cell2><br>     <a href=Book/Chapter_Three_Charcoal_Portraits_Book_ArthurX.pdf><h2>Charcoal</h2></a><br>&nbsp </td>
+<td id=cell3>         <a href=Book/Chapter_Three_Charcoal_Portraits_Book_ArthurX.pdf><img src="Paintings/Charcoal/Yogi_140Height.jpg"></a> </td></tr>
+
+<tr><TD id=cell1><br> <a href=Book/Chapter_Four_Oil_Pastels_Book_ArthurX.pdf><h2>Chapter Four</h2></a><br>&nbsp </td>
+<td id=cell2><br>     <a href=Book/Chapter_Four_Oil_Pastels_Book_ArthurX.pdf><h2>Oil Pastels</h2></a><br>&nbsp </td>
+<td id=cell3>         <a href=Book/Chapter_Four_Oil_Pastels_Book_ArthurX.pdf><img src="Paintings/Charcoal/WomanTearbeste140Height.jpg"></a> </td></tr>
+
+<tr><TD id=cell1><br> <a href=Book/Chapter_Five_Abstract_Figuratism_Book_ArthurX.pdf><h2>Chapter Five</h2></a><br>&nbsp </td>
+<td id=cell2><br>     <a href=Book/Chapter_Five_Abstract_Figuratism_Book_ArthurX.pdf><h2>Abstract Figuratism</h2></a><br>&nbsp </td>
+<td id=cell3>         <a href=Book/Chapter_Five_Abstract_Figuratism_Book_ArthurX.pdf><img src="Paintings/Paintings_Seperate/ManandWoman_140height.jpg"></a> </td></tr>
+
+
+<tr><TD id=cell1><br> <a href=Book/Chapter_Six_Nouveau_Fauvism_Book_ArthurX.pdf><h2>Chapter Six</h2></a><br>&nbsp </td>
+<td id=cell2><br>     <a href=Book/Chapter_Six_Nouveau_Fauvism_Book_ArthurX.pdf><h2>Nouveau Fauvism</h2></a><br>&nbsp </td>
+<td id=cell3>         <a href=Book/Chapter_Six_Nouveau_Fauvism_Book_ArthurX.pdf><img src="Paintings/Paintings_Seperate/Holdingmyson_close_140_Height.jpg"></a> </td></tr>
+
+
+<tr><TD id=cell1><br> <a href=Book/07_Chapter_Seven_A_Cubist_Style_Book_ArthurX.pdf><h2>Chapter Seven</h2></a><br>&nbsp </td>
+<td id=cell2><br>     <a href=Book/07_Chapter_Seven_A_Cubist_Style_Book_ArthurX.pdf><h2>A Cubist Style</h2></a><br>&nbsp </td>
+<td id=cell3>         <a href=Book/07_Chapter_Seven_A_Cubist_Style_Book_ArthurX.pdf><img src="Paintings/Paintings_Seperate/Tit_El_Stoft_16bit_140Height.jpg"></a> </td></tr>
+
+
+<tr><TD id=cell1><br> <a href=Book/08_Chapter_Eight_Christina_in_Stuttgart_Germany_Book_ArthurX.pdf><h2>Chapter Eight</h2></a><br>&nbsp </td>
+<td id=cell2><br>     <a href=Book/08_Chapter_Eight_Christina_in_Stuttgart_Germany_Book_ArthurX.pdf><h2>Christina in Stuttgart, Germany</h2></a><br>&nbsp </td>
+<td id=cell3>         <a href=Book/08_Chapter_Eight_Christina_in_Stuttgart_Germany_Book_ArthurX.pdf><img src="Paintings/Aalen_Kristina/OpenArtAalen_0054_Contrast_Kristina_140Height.jpg"></a> </td></tr>
+
+<tr><TD id=cell1><br> <a href=Book/09_Chapter_Nine_Lithographie_Book_ArthurX.pdf><h2>Chapter Nine</h2></a><br>&nbsp </td>
+<td id=cell2><br>     <a href=Book/09_Chapter_Nine_Lithographie_Book_ArthurX.pdf><h2>Lithography</h2></a><br>&nbsp </td>
+<td id=cell3>         <a href=Book/09_Chapter_Nine_Lithographie_Book_ArthurX.pdf><img src="Book/PoemLibertino_Color_140Height.jpg"></a> </td></tr>
+
+
+<tr><TD id=cell1><br> <a href=Book/10_Chapter_Ten_Barcelona_and_Miros_Curls_Book_ArthurX.pdf><h2>Chapter Ten</h2></a><br>&nbsp </td>
+<td id=cell2><br>     <a href=Book/10_Chapter_Ten_Barcelona_and_Miros_Curls_Book_ArthurX.pdf><h2>Barcelona and <br> Miro's Curls</h2></a><br>&nbsp </td>
+<td id=cell3>         <a href=Book/10_Chapter_Ten_Barcelona_and_Miros_Curls_Book_ArthurX.pdf><img src="Top_Banner/Barcelona/Anna_No_Green_NoFlash_140_height.jpg"></a> </td></tr>
+
+<tr><TD id=cell1><br> <a href=Book/11_Chapter_Delft_Churches_and_Math_Book_ArthurX.pdf><h2>Chapter Eleven</h2></a><br>&nbsp </td>
+<td id=cell2><br>     <a href=Book/11_Chapter_Delft_Churches_and_Math_Book_ArthurX.pdf><h2>Delft, Holland<br>Churches and Math</h2></a><br>&nbsp </td>
+<td id=cell3>         <a href=Book/11_Chapter_Delft_Churches_and_Math_Book_ArthurX.pdf><img src="Top_Banner/Thomas_Bayes/140_Height_Bayes_Thomas_Almost_finished_Close_by_ArthurX.jpg"></a> </td></tr>
+
+
+
+
+<tr><TD id=cell1><br> <a href=Book/12_Chapter_Berlin_and_the_Ghosts_Book_ArthurX.pdf><h2>Chapter Twelve</h2></a><br>&nbsp </td>
+<td id=cell2><br>     <a href=Book/12_Chapter_Berlin_and_the_Ghosts_Book_ArthurX.pdf><h2>Berlin and <br>the Ghosts of the deceased</h2></a><br>&nbsp </td>
+<td id=cell3>         <a href=Book/12_Chapter_Berlin_and_the_Ghosts_Book_ArthurX.pdf><img src="Berlin/Syna_paintingonly_bleu_Red_yellow_140_height.jpg"></a> </td></tr>
+
+<tr><TD id=cell1><br> <a href=Book/13_Chapter_Thirteen_Sculptures_Book_ArthurX.pdf><h2>Chapter 13</h2></a><br>&nbsp </td>
+<td id=cell2><br>     <a href=Book/13_Chapter_Thirteen_Sculptures_Book_ArthurX.pdf><h2>Sculptures in <br>Bronze</h2></a><br>&nbsp </td>
+<td id=cell3>         <a href=Book/13_Chapter_Thirteen_Sculptures_Book_ArthurX.pdf><img src="Sculpture_ArthurX/sittingwomannew140height.jpg"></a> </td></tr>
+
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-2189632-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+
+</body>
+
+
+
+
+
+
+
+
+
+
+</HTML>
+

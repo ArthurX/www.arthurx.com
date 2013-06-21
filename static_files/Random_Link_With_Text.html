@@ -1,0 +1,35 @@
+<!doctype html public "-//w3c//dtd html 3.2//en">
+
+<HTML>
+<HEAD> 
+  <LINK REL="icon" HREF="images/mozilla-16.png" TYPE="image/png"> 
+ <link rel="shortcut icon" href="favicon.ico">
+</HEAD>
+<BODY>
+<SCRIPT LANGUAGE="JavaScript">
+var urlarray= new Array("http://www.hp.com/brio",
+      "http://www.ibm.com",
+      "http://www.acer.com",
+      "http://www.toshiba.com");
+
+var textarray= new Array("Brio Support Center",
+      "IBM Aptiva Center",
+      "Acer Technologies",
+      "toshiba site");
+
+randomno=Math.floor((Math.random()*urlarray.length));
+
+urlstr="<a href=\""+urlarray[randomno]+"\">"
+urlstr+=textarray[randomno];
+urlstr+="</a>"
+document.write (urlstr);
+</SCRIPT>
+</BODY>
+</HTML>
+
+
+
+
+
+</body>
+</html>

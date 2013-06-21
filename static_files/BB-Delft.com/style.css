@@ -1,0 +1,72 @@
+body {
+
+  							color: black; 
+								background: white;
+  }
+  
+
+
+
+div.main				{ margin-left: auto; 
+									margin-right: auto;
+									width: 750px;
+  								color: black; background: white;
+  								font-size: 14pt;
+								}
+
+
+
+
+div.maintext    {  }
+
+div.photobody 			{text-align:center;
+									font-size:100%;
+									font-style:italic;
+									border: blue solid;
+									padding: 15px;
+									margin: 35px;
+									width:400px;}
+								
+div.photobody	img {
+  								width: 100%;
+									}
+
+div.phototop 		{ width:750px;
+								height:160px;
+								
+								}
+
+
+
+
+div.abovetoplinks { width:750px;
+								height:10px;
+								background-color:blue;
+								}
+
+div.toplinks 		{width:750px;
+								height:33px;
+								background-color:blue;
+								}
+								
+								
+a.top:link			{	padding:	11px;
+								color:	white;
+								font-weight: bold;
+								font-size: 120%;
+								text-decoration: none; 
+								}
+								
+a.top:visited		{	padding:	11px;
+								color:	white;
+								font-weight: bold;
+								font-size: 120%;
+								text-decoration: none; 
+								}
+								
+a.top:hover		{	background-color:white;
+								padding:	11px;
+								color:	black;
+								font-style: italic;
+								font-size: 120%; 
+								}

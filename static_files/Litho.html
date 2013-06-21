@@ -1,0 +1,489 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN"><html>
+
+<HEAD> 
+
+  <LINK REL="icon" HREF="images/mozilla-16.png" TYPE="image/png"> 
+
+ <link rel="shortcut icon" href="favicon.ico">
+
+<LINK REL=StyleSheet HREF="style.css" TYPE="text/css" MEDIA=screen>
+
+<TITLE>ArthurX: Artist, Rocker, Painter.</TITLE>
+
+
+
+<STYLE>
+
+<!--
+
+.songnames { font-size:12pt ; font-family:"Times New Roman" ; color:001fee ; vertical-align:bottom }
+
+.CDTitle {  font-size:15pt ; font-family:"Times New Roman" ; color:#b02502}
+
+.BlockHead { font-size:30pt ; font-family:"Times New Roman" ; color:a3ffdd}
+
+
+
+.location { font-size:12pt ; font-family:"Times New Roman" ; color:#c216be  ; vertical-align:bottom }
+
+.price {  font-size:20pt ; font-family:"Times New Roman" ; color:#b02502 ; vertical-align:bottom }
+
+.BlockHead2 { position:relative ; left:190px ; top:20px ; 
+
+             font-size:13pt ; font-family:"Times New Roman" ; color:#000000}
+
+.WebShop{ position:relative ; left:0px ; top:60px ; 
+
+             font-size:13pt ; font-family:"Times New Roman" ; color:#000000}
+
+
+
+TD#TumbNail {  font-size:13pt ; font-family:"Times New Roman" ; color:#4960fe  ; width:200px; border: 22px solid black;background: black ; vertical-align:center ; horizontal-align:center}
+
+a.imagelink:link {background-color:#000000; color:#000000 ; }
+
+a.imagelink:visited {background-color:#000000;  color:#000000}
+
+
+
+
+
+a.imagelink:hover {background-color:#000000; color:#000000}
+
+
+
+-->
+
+</STYLE>
+
+</HEAD>
+
+<body bgcolor=#ffffff>
+
+<div class="Navtor"> 
+
+<SCRIPT LANGUAGE=JavaScript src=Include_Navtor.js>
+
+</SCRIPT>
+
+</div>
+
+
+
+<div class="Main"> 
+
+<script language="JavaScript" >
+
+PriceFactor=4
+
+
+
+// List of all products in the order of appearance with the following qualities:
+
+// Name,   	   			   	   price, image source,					  info, 					  	 																				location.
+
+var Products = new Array (
+
+"DancingFlame",	   		  	   "40",  "DancingFlame_500_735.jpg",      "50cmx70cm.<br>Magnani Paper<br> Oldest Papermill  <br>Pescia, Italy<br> 50% Cotton <br>Edition of 21.<br>Signed.", "Atelier <br>Elizabeth <br>Delft,Holland",
+
+"HeavenClose",			 	   "40", "HeavenClose500_735pixdonker.jpg","50cmx70cm.<br>Magnani Paper<br> Oldest Papermill  <br>Pescia, Italy<br> 50% Cotton <br>Edition of 21.<br>Signed.", "Atelier <br>Elizabeth <br>Delft,Holland",											
+
+"TongueWrestling",			   "40", "Tongue-Wrestling500_735pix.jpg",	"50cmx70cm.<br>Magnani Paper<br> Oldest Papermill  <br>Pescia, Italy<br> 50% Cotton <br>Edition of 21.<br>Signed.", "Atelier <br>Elizabeth <br>Delft,Holland",											 
+
+"Poem_Libertino",  			   "40", "Poem_Libertino_500_735pix.jpg","50cmx70cm.<br>Magnani Paper<br> Oldest Papermill  <br>Pescia, Italy<br> 50% Cotton <br>Edition of 21.<br>Signed.", "Atelier <br>Elizabeth <br>Delft,Holland",	
+
+"RoundRoundRoundWubble",			   "60", "Roundroundwubble_500_735.jpg",	"50cmx70cm.<br>Magnani Paper<br> Oldest Papermill  <br>Pescia, Italy<br> 50% Cotton <br>Edition of 14.<br>Signed.", "Atelier <br>Elizabeth <br>Delft,Holland",	
+
+"Sundance_Midnight",	"40",  "Sundance_Midnight_500_735pix.jpg",	"50cmx70cm.<br>Magnani Paper<br> Oldest Papermill  <br>Pescia, Italy<br> 50% Cotton <br>Edition of 21.<br>Signed.", "Atelier <br>Elizabeth <br>Delft,Holland",	
+
+"BubbleWomanDance", 	  "60", "Bubblewomandance_500pix.jpg" ,"38cmx53cm.<br> Arches Paper.<br> 100% Cotton <br>Edition of 40. <br>Signed.", "Atelier <br>Jean Pons <br>Paris",
+
+"SautanteJoueuezeDrole", 	  "100", "sautante_joueuze_drole500pix+Blue+Red.jpg" ,"35cmx50cm. <br>Laurier Paper <br> 100% Cotton<br>Edition of 13.<br>Signed.", "Atelier <br>Elizabeth <br>Delft,Holland",
+
+"SwansLoveBetter", 	  "60", "swanslovebetter500pixjpg+68Blue+30Red.jpg" ,"50cmx70cm.<br>Magnani Paper<br> Oldest Papermill  <br>Pescia, Italy<br> 50% Cotton <br>Edition of 23.<br>Signed.", "Atelier <br>Elizabeth <br>Delft,Holland",
+
+"SergeantTami", 	  "40", "sergeanttami500pix.jpg" ,"50cmx70cm. <br>Magnani Paper<br> Oldest Papermill <br>Pescia, Italy<br> 50% Cotton<br>Edition of 25.<br>Signed.", "Atelier <br>Elizabeth<br>Delft,Holland",
+
+"NoWomanNoCry", 	  "40", "NoWomanNoCry500+Blue+Cyan.jpg" ,"50cmx70cm. <br>Laurier Paper<br> 100% Cotton <br>Edition of 31.<br>Signed.", "Atelier <br>Elizabeth<br>Delft,Holland",
+
+"DoggyTalkSunburned", 	  "100", "doggy_talk_sunburned_500.pix.jpg" ,"50cmx70cm.<br>Laurier Paper<br> 100% Cotton <br>Edition of 10.<br>Signed.", "Atelier <br>Elizabeth<br>Delft,Holland",
+
+"NoPerfectStory", 	  "60", "no_perfect_story_500pix+Blue.jpg" ,"50cmx70cm. <br>Laurier Paper<br> 100% Cotton<br>Edition of 13.<br>Signed.", "Atelier <br>Elizabeth<br>Delft,Holland",
+
+"ParadiseIsHere", 	  "40", "ParadiseIsHere_500pix+Blue+Red+Contrast+PSP+Contrast+Crop.jpg" ,"50cmx70cm. <br>Magnani Paper<br> Oldest Papermill <br> Pescia, Italy<br> 50% Cotton<br><br>Edition of 30.<br>Signed.", "Atelier <br>Elizabeth <br>Delft,Holland",
+
+"ThreeEyedHearTurn", 	  "Sold Out", "Three_Eyed_Heart_Turn500pix.jpg" ,"50cmx70cm. <br>Edition of 5.<br>Signed.", "Atelier <br>Elizabeth <br>Delft,Holland",
+
+"CrawlingWonder", 	  "200", "CrawlingWonderblue_nude_500.jpg" ,"40cmx50cm. <br>Edition of 4.<br>Signed.", "Atelier <br>Elizabeth<br>Delft,Holland",
+
+"AtelierPons", 	  "0", "atelier_pons_ArtandMarc_febr2002+500pixContrast.jpg" ,"38cmx53cm. <br>Edition of 1.<br>Signed.", "Atelier <br>Jean Pons <br>Paris",
+
+
+
+
+
+"AtelierKelly", 	  "0", "lithopers_met_Kelly_500.pix.jpg" ,"50cmx70cm.<br>Edition of 1.<br>Signed.", "Atelier <br>Elizabeth <br>Delft,Holland",
+
+
+
+
+
+
+
+
+
+
+
+"BubbleWomanDance", 	  "0", "stone_litho_bubble_woman5000pix.jpg" ,"38cmx53cm. <br>Edition of 40.<br>Signed.", "Atelier <br>Jean Pons <br>Paris",
+
+
+
+"LithoPressGear", 	  "0", "tandwiel_lithpers_500pix.jpg" ,"AGerman Litho Press 1873, reduction gear with toothwheel.", "Atelier <br>Elizabeth <br>Delft,Holland"
+
+
+
+
+
+);
+
+
+
+</script><br><br>
+
+<center><img src=Paintings/Litho_500_Wide/Litho.png>
+
+
+
+<br>
+
+
+
+
+
+</center>
+
+<br>
+
+<p> <a name=top></a> <table cellspacing=10px border=10px  bordercolor=#0030ee><color=red>
+
+<script language="JavaScript" >
+
+//							  Tumb Nail Generation                                                                       
+
+
+
+cellcounter = 0
+
+max= Products.length/5;
+
+for (i=0; i<max; i++){
+
+if (cellcounter==0) { document.write("<tr>")};
+
+cellcounter++;
+
+if (cellcounter==4) {cellcounter=0};
+
+document.write( "<td id=TumbNail><a  href=#", Products[((i*5)+0)] , " class=imagelink><center><img src=Paintings/Litho_500_Wide/", Products[((i*5)+2)], " width=100>");
+
+//document.write( "<td class=\"songnames\">",Products[((i*5)+3)]);
+
+//document.write( "<td class=\"location\">",Products[((i*5)+4)]);
+
+//document.write( "<td class=\"price\">");
+
+//if (Products[((i*5)+1)]=="Sold Out"){  document.write(Products[((i*5)+1)]);}
+
+//else						   		{  document.write("Price €", 5*Products[((i*5)+1)]);} ;
+
+document.write( "<br><img src=Paintings/Litho_500_Wide/", Products[((i*5))], "_Text.jpg  width=100 ></center></a>");
+
+
+
+
+
+document.write("<center>");
+
+if (Products[((i*5)+1)]=="Sold Out"){  document.write(Products[((i*5)+1)]);}
+
+//  Price Factor  *****************************************************************************
+
+else						   		{  document.write("€", PriceFactor*Products[((i*5)+1)]);} ;
+
+document.write("</center>");
+
+
+
+};
+
+
+
+</script></table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<P>
+
+In November 2001 ArthurX and his business associate Elizabeth, alias Kelly, visited Paris after an invitation of
+
+Marc Hagem of the Vivendi Galery at Place des Voges. And it really is a beautifull place, in those times project developers
+
+had defintifly more style.
+
+<P>
+
+Marc had invited them for dinner, but after viewing the artworks of ArthurX, he explained that he had a very quiet group of clients,
+
+who might be mighty shocked by this kind of wild art. And when he thought better about this case, he came to the conclusion, that it might me to wild for 
+
+the whole of Paris. Actually it was so wild that the only art-crowd to stand this kind of works would be the New York scene.
+
+<p>
+
+So on their way back to the hotel ArthurX and Kelly were a little depressed. Just a few doors before their hotel another galery owner 
+
+waved his arm in order to make them join the crowd. Inside was a vernisage and two musicians played a jazz combo. At the back of the galery 
+
+an old man stood, he looked like an old Indian staring over the everlasting green plains. White long hairs hanging till his shoulders, a suede sand-colored
+
+blazer and an ageless muze near by.
+
+<p>
+
+He was the artist.<br>
+
+From the age of Picasso.<br>
+
+Still alive, a reliving of the past.<br>
+
+<p>
+
+He adressed himself to ArthurX:<br>
+
+"Tu vends des peintres?"<br>
+
+"Pas du tout."<br>
+
+"Moi aussi."<br>
+
+
+
+ 
+
+
+
+<SCRIPT SRC="nopcart.js">
+
+  //=====================================================================||
+
+  //               NOP Design JavaScript Shopping Cart                   ||
+
+  //---------------------------------------------------------------------||
+
+  // Visit NOP Design at http://www.nopdesign.com or Info@nopdesign.com  ||
+
+  //=====================================================================||
+
+</SCRIPT>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table>
+
+<script language="JavaScript" >
+
+max= Products.length/5;
+
+
+
+for (i=0; i<max; i++){
+
+document.write( "<tr><td><a name=", Products[((i*5)+0)] , "></a><br><br><br><a href=#top>Back to Top</a><br><img src=Paintings/Litho_500_Wide/", Products[((i*5)+2)], ">");
+
+//document.write( "<td class=\"CDTitle\">",Products[(i*5)]);
+
+document.write( "<td class=\"songnames\">",Products[((i*5)+3)]);
+
+document.write( "<td class=\"location\">",Products[((i*5)+4)]);
+
+document.write( "<td class=\"price\">");
+
+if (Products[((i*5)+1)]=="Sold Out"){  document.write(Products[((i*5)+1)]);}
+
+//  Price Factor  *****************************************************************************
+
+else						   		{  document.write("Price €", PriceFactor*Products[((i*5)+1)]);} ;
+
+
+
+
+
+//document.write( "<tr><td><img src=Paintings/Litho_500_Wide/", Products[((i*5))], ".gif >");
+
+document.write( "<tr><td><img src=Paintings/Litho_500_Wide/", Products[((i*5))], "_Text.jpg >");
+
+
+
+
+
+
+
+
+
+    <!--Shopping Cart Product Begin-->
+
+document.write( "<td><FORM NAME=order >") ;
+
+document.write(      "<input type=hidden  name=QUANTITY  value=\"1\">") ;
+
+//  Price Factor  *****************************************************************************  
+
+document.write(    "<input type=hidden name=PRICE value=" ,PriceFactor*Products[((i*5)+1)], ">") ;
+
+document.write(    "<input type=hidden name=NAME value=" ,Products[((i*5))], ">") ;
+
+
+
+document.write("<input type=image src=Paintings/Litho_500_Wide/Add_To_Cart.gif  name=\"Order Now!\"  alt=\"Order Now!\" onClick='AddToCart(this.form)'>") ;
+
+
+
+
+
+//document.write("<td class=\"price\"><input type=button value='  Add to Cart  ' onClick='AddToCart(this.form)'>") ;
+
+document.write( "</FORM>") ;
+
+
+
+
+
+document.write( "<td><FORM NAME=go action=ManageCart.html>") ;
+
+document.write(    "<input type=image src=Paintings/Litho_500_Wide/Check_Out.gif name=\"Order Now!\"  alt=\"Order Now!\"  onClick='submit' >") ;
+
+//document.write(    "<td><a href=\"managecart.html\">Check out now</a>" );
+
+document.write( "</FORM>") ;
+
+    <!--Shopping Cart Product End  -->
+
+
+
+
+
+
+
+
+
+
+
+};
+
+</script>
+
+</table>
+
+<br><br>
+
+<p>
+
+It might sound like a sad yoke, being 88 and never having sold anything, so having no real chance of ever reaching anything.
+
+But at that age to still have the ferocity to want to fight whole the world, to have the spirit, movements and flashing eyes,
+
+that's what counts.
+
+
+
+<P>
+
+Later on he told he had had a litho atelier now operated by his daughter, Babette Pons.
+
+And in his time the great masters had made lithos in the beginning of their carreer.
+
+All the big names had been with him Picasso, Kandinsky, Chagall, Appel, Zadkine and Hundertwasser.
+
+So he invited ArthurX to go to his daughters atelier next time in Paris.<br>
+
+This artist was Jean Pons having an exhibition in the galery "Ars in fine" directed by
+
+Pierre du Champs.
+
+<p>
+
+In Januari 2002 ArthurX and Kelly went to London on different quest and met there Mark Jason of the same galery.
+
+Elizabeth told Mark Jason of theri meeting with the old giant in Paris. Mark told he had before worked for Christies and in that time
+
+he had traded the paintings of the old artist especially those of the Jazz period.
+
+So what are the odds, one month you go to Paris and the next, you meet someone having traded in him.
+
+<p>
+
+Another month later we were back in Paris to make the litho. And it was really exciting to
+
+have a vacation in Paris and make something at the same time. In the atelier all kind of people were walking
+
+around and to stay concentrated at making your drawing at the stone was quite a challence.<br>
+
+The atelier looked like the Middle Ages somewhere in a backyard at Rue de Lions. 
+
+
+
+
+
+
+
+</div>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-2189632-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+

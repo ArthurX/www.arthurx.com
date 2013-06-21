@@ -1,0 +1,172 @@
+
+
+
+document.write("<OBJECT classid=clsid:D27CDB6E-AE6D-11cf-96B8-444553540000");
+ document.write("codebase=http://active.macromedia.com/flash2/cabs/swflash.cab#version=3,0,0,0");
+ document.write("ID=Navtor WIDTH=230 HEIGHT=900>");
+  document.write("<PARAM NAME=movie VALUE=Navtor.swf> ");
+  document.write("<PARAM NAME=quality VALUE=autohigh> ");
+  document.write("<PARAM NAME=bgcolor VALUE=#FFFFFF> ");
+  
+  
+  
+ function checkForShockwave()
+{
+	navigator.plugins.refresh();
+	if ( navigator.plugins["Shockwave Flash"] ){ 
+		parent.location.reload();
+	} else {
+		setTimeout( "checkForShockwave()", 1000 );
+	}
+}
+var ShockMode = 0;
+var OldVersionOfPlugin = 0;
+if (navigator.mimeTypes && navigator.mimeTypes["application/x-shockwave-flash"] && navigator.mimeTypes["application/x-shockwave-flash"].enabledPlugin) {
+	if (navigator.plugins && navigator.plugins["Shockwave Flash"])
+		ShockMode = 1;
+	else
+		OldVersionOfPlugin = 1;
+}
+if (!ShockMode && navigator.appName && navigator.appName.indexOf("Netscape") != - 1 && navigator.appVersion.indexOf("4.") != - 1
+&& navigator.javaEnabled() && netscape.softupdate.Trigger.UpdateEnabled() && document.cookie.indexOf("StartedShockwaveInstall") == -1) {
+	var jarPath = new String("");
+	if (navigator.platform.indexOf("Win32") >= 0 )
+		jarPath = "http://download.macromedia.com/pub/shockwave/jars/english/silentflash32.jar"
+	else if (navigator.platform.indexOf("Win16") >= 0 )
+		jarPath = "http://download.macromedia.com/pub/shockwave/jars/english/silentflash16.jar"
+	else if (navigator.platform.indexOf("MacPPC") >= 0 )
+		jarPath = "http://download.macromedia.com/pub/shockwave/jars/english/silentflashppc.jar"
+	if (jarPath.length) {
+		netscape.softupdate.Trigger.StartSoftwareUpdate (jarPath, netscape.softupdate.Trigger.FORCE_MODE);
+		document.cookie='StartedShockwaveInstall;path=/;'
+		setTimeout("checkForShockwave()", 1000);
+	}
+}
+
+
+
+
+
+	document.write('<EMBED SRC="Navtor.swf"');
+	document.write(' swLiveConnect=FALSE WIDTH=240 HEIGHT=900');
+	document.write(' QUALITY=autohigh BGCOLOR=#FFFFFF');
+	document.write(' TYPE="application/x-shockwave-flash" PLUGINSPAGE="http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash">');
+	document.write('</EMBED></OBJECT>');
+	
+		document.write('<center><br>Contact: <br>Elizabeth Kaskens<br>elizabeth@thescars.com<br>0031-6-14748466<br> &copy; ArthurX ');
+		var curdate = new Date()
+var year = curdate.getYear()
+document.write((year + 1900) + "<br></center>")
+	
+  document.write("</DIV> ");
+  document.write("<DIV class=TopBanner >");
+  
+  
+ //Create Top Banner
+ // Paintings List
+  
+  
+  var Barcelona_Names = new Array("Anna_Blauw_Zwart_140_height.jpg",
+ 
+"Hush_Woman_Cat_Contrast_extra_140_height.jpg", 
+"Anna_Black_Blue_Purple_140_height.jpg",
+"Anna_In_BioShop_Avinyo_and_El_140_height.jpg",
+"Anna_No_Green_NoFlash_140_height.jpg",
+"Anna_OnlyBlack_140_height.jpg" ,
+"Art_Paints_pizzaGirl_Behind_Canvas_140_height.jpg"  ,
+
+"Anna_Outside_Stone_Whole_Painting_140_height.jpg"  ,
+
+
+
+"Art_Paints_pizzaGirl_behind_Canvas_2_140_height.jpg"  ,
+"Art_Paints_PizzaGirl_Front_Red_140_height.jpg",
+"Art_Paints_PizzaGirl_Looking_on_Canvas_140_height.jpg"  ,
+
+"Art_Shows_Lorry_Leg_of_PizzaGirl_140_height.jpg"  ,
+
+"Arthur_painting_Cat_NoFlash_140_height.jpg"  ,
+
+"Arthur_painting_Violist_Black_Flash_140_height.jpg"  ,
+
+"Cathedral_Seu_Photo_140)height.jpg"  ,
+
+"Church_La_Merce_Art+volist_140_height.jpg"  ,
+"Crawling_BackWay_Future_140_height.jpg" ,
+"El_Hldong_Pizza_Outside_Gallery_140_height.jpg" ,
+"El+Palm_140_height.jpg",
+"Galeria_Pizza_Girl_SpanishMan_140_height.jpg",
+"Little_King_of_Sitges_Blue+Purple_140_height.jpg",
+"Lorry_Art_HushHush_140_height.jpg",
+"Painting_Cathedral_Seu_140_height.jpg",
+"PizzaGirl_Finished_140_height".jpg",
+"Nude_Man_Complete_140_height.jpg",
+"PizzaGirl_Takes_Break_140_height.jpg",
+"Sketch_Anna_Avinyo_140_height.jpg",
+"Sketch_Violist_140_height.jpg",
+"Tony_Sarah_Art_tlaking_Cat_Flash_140_height.jpg",
+"Tony_sitting_in_front_of_Gallery_140_height.jpg",
+"Tony_Talking_Arthur_Cat_NoFlash_140_height.jpg",
+"Vilolist_All_140_height.jpg",
+"Violist_NudeMan_Painting_140_height.jpg",
+"Violist_Painting_Finished_Outside_140_height.jpg",
+"Violist_Painting_Red_Blue_140_height.jpg",
+"Violist_Ready_Outside_Hold_by_el_140_height.jpg")
+
+
+
+
+
+
+for(i=0; i<4; i++){
+
+
+
+randomno=Math.floor((Math.random()*Painting_Names.length));
+
+document.write("<img src=\"Top_Banner/Barcelona/")
+document.write(Picture_Names[randomno], "\"")
+document.write(" height=140 border=0 >")
+}
+
+
+
+
+
+
+ document.write("<img src=Top_Banner/TopBanner_ArthurX_Art_Music_Architecture_300x140.png border=0>") 
+
+
+
+
+
+
+  
+ 
+//  Architecture
+
+  var Architecture_Names = new Array("Tony_Art_Talking_720_width.jpg", 
+"Art_Paints_pizzaGirl_Behind_Canvas_720.jpg", 
+"Anna_In_BioShop_Avinyo_and_El_720.jpg",
+ "Galeria_Pizza_Girl_SpanishMan_720.jpg")
+ 
+ 
+ 
+ 
+ 
+ 
+ for(i=0; i<7; i++){
+
+
+
+randomno=Math.floor((Math.random()*Architecture_Names.length));
+
+document.write("<img src=\"Barcelona/")
+document.write(Architecture_Names[randomno], "\"")
+document.write(" height=140 border=0 >")
+}
+
+ 
+  
+//   document.write("<center><FORM NAME=go action=Paintings.html><input type=image src=\"Banner_486X60_ArthurX.gif\"  name=\"Paintings_ArthurX\"  alt=\"Paintings_ArthurX\"  onClick='submit' ></FORM></center> ");
+  

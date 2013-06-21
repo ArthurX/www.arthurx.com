@@ -1,0 +1,71 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN"><html>
+<HEAD> 
+  <LINK REL="icon" HREF="images/mozilla-16.png" TYPE="image/png"> 
+ <link rel="shortcut icon" href="favicon.ico">
+<LINK REL=StyleSheet HREF="style.css" TYPE="text/css" MEDIA=screen>
+<TITLE>ArthurX: Artist, Rocker, Painter.</TITLE>
+</HEAD>
+
+<div class="Navtor"> 
+<SCRIPT LANGUAGE=JavaScript src=Include_Navtor.js>
+</SCRIPT>
+</div>
+
+
+
+<SCRIPT LANGUAGE=JavaScript src=Include_SongText_Index.js>
+</SCRIPT>
+
+<div id="Songtext" style="position:absolute; left:10px; top:203px; width:802px; height:1601px; z-index:2"> 
+
+<H1>Paris At Night</h1>
+
+
+<iframe width="853" height="480"   src="http://www.youtube.com/embed/DPr0huLB10o?hd=1&modestbranding=1"
+frameborder="0" allowfullscreen></iframe>
+
+
+<H1><br>Paris At Night</h1>
+<pre>
+She walks away, 
+She goes away,
+She set me out.
+
+It makes no sense,
+The words I say,
+She goes her way.
+
+It's Paris at night,
+The light breaks apart,
+The bulb that shines.
+
+A window that opens,
+A door that closes,
+It's all shut down.
+
+The march is over,
+The battle is fought,
+Every men has gone.
+ 
+All contact lost,
+The lifeline is cut,
+The rocket gone.
+
+Stars falling over,
+Hedges closing in,
+La fleur eternelle.
+
+Penetrante toutes organes,
+Couririliante tous membres,
+La fleur eternelle.
+
+The march is over,
+The bulb apart,
+A door closed.
+</pre>
+</div>
+<SCRIPT LANGUAGE=JavaScript src=Include_Footer.js>
+</SCRIPT>
+
+</BODY>
+</HTML>

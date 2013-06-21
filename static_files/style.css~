@@ -1,0 +1,225 @@
+BODY  { background: white; color: black ; font-family:"Times New Roman" ;font-size:14pt }
+div.Navtor {position:absolute; left:1px; top:141px; width:250px; height:780px; z-index:4}
+div.Main {position:absolute; left:270px; top:141px; width:900px; height:1200px; z-index:2 ; text-align: center  }
+
+div.Main_2 {position:absolute; left:965px; top:341px; width:800px; height:1200px; z-index:2  }
+div.Main_3 {position:absolute; left:1685px; top:141px; width:800px; height:1200px; z-index:2  }
+div.TopBanner {position:absolute; left:1px; top:1px; width:2080px; height:140px; z-index:2 ;font-size:60pt }
+div.RightTop {position:absolute; left:900px; top:1px; width:2080px; height:140px; z-index:2 ;font-size:60pt }
+div.Quote {position:absolute; left:1159px; top:141px; width:200px;  z-index:3 ;text-align: center; font-size : 15px ; text-shadow: 4px 3px 10px #707070}
+div.GoogleAds {position:absolute; left:1150px; top:435px; width:160px; height:600px ;  z-index:3 }
+
+
+h1 { color: black ; font-family:"Times New Roman",  Sans-Serif ;  font-style:italic;font-size:25pt ;text-shadow: 4px 3px 10px #707070}
+h2 { color: black ; font-family:"Times New Roman",  Sans-Serif ;  font-style:italic;font-size:25pt ;text-shadow: 4px 3px 10px #707070}
+h3.photobody500 { color:black ; font-family:"Times New Roman",  Sans-Serif ;  font-style:italic;font-size:18pt ;text-shadow: 4px 3px 10px #707070}
+p::first-letter { font-size: 250%; font-weight: bold;  }
+p::first-line { font-weight: bold; }
+
+div.photobody {text-align:center; font-size:100%; font-style:italic; border: blue solid; padding: 30px; margin: 35px; width:400px; background-color:black;}
+div.photobody500 {text-align:center; font-size:100%; font-style:italic; border: blue ; border-size: 10; solid; padding: 30px; margin: 35px; width:500px; 
+                  background-color:black; 
+                  /*border-radius: 22px ;-moz-border-radius: 20px ;-webkit-border-radius: 20px;*/
+                  box-shadow: 6px 9px 35px #343434;
+                  -moz-box-shadow: 6px 9px 35px #343434;
+                  -webkit-box-shadow: 6px 9px 35px #343434;}								
+div.photobody	img {width: 100%;}
+div.fright { float: right; }
+div.fleft { float: left; }
+
+/* table in index.html en News.html */
+table     { table-layout: fixed;}
+TD#cell1  { width: 230px ; border: 22px solid black;background: blue }
+TD#cell2  { width:230px; border: 22px solid black;background: red }
+TD#cell3  { width:400px; border: 22px solid black;background: black ; text-align:center}
+
+input  { background: white; color: black ;font-family:"Times New Roman" ;font-size:14pt }
+textarea  { background: white; color: black ;font-family:"Times New Roman" ;font-size:14pt }
+
+.songnames { font-size:12pt ; font-family:"Times New Roman" ; color:#001fee ; vertical-align:bottom }
+div.SongText_Index {position:absolute; left:270px; top:200px; width:150px; height:1200px; z-index:2}
+div.SongText {position:absolute; left:500px; top:200px; width:800px; height:1200px; z-index:2}
+div.SongText_Image {position:absolute; left:1px; top:1000px; width:600px; height:1200px; z-index:1}
+
+
+
+a:link {color:black ; background-color:transparent; text-decoration:none ;text-shadow: 4px 3px 10px #707070}
+a:visited {color:black ; background-color:transparent;text-decoration:none}
+a:hover {color:black ; background-color:transparent;text-decoration:none}
+
+
+a.imagelink { background-color:transparent}
+a.imagelink:visited { background-color:transparent}
+a.imagelink:hover { background-color:transparent}
+
+
+/* Additional buttons under navigator */
+/* Additional buttons Tulip */
+div.button_holder_Tulip   {width:170px;height:44px; background:white; padding-left:4px; padding-top:0px; border-top:0px; border-left:0px; border-right:0px; border-bottom:0px; border-color:white;}
+div.nav_Tulip   {width:166px;height:42px; background:#0019FC; padding-left:4px; padding-top:0px; border-top:0px; border-left:0px; border-right:0px; border-bottom:0px; border-color:white;
+font-size:27pt; font-style:bold;}
+div.nav_Tulip:hover{background:white;
+                         -webkit-transform: rotate3d(-1,1,1, 25deg) }
+
+/* Additional buttons Architecture_Video */
+div.button_holder_Architecture_Video    {width:170px;height:26px; background:white; padding-left:4px; padding-top:0px; border-top:0px; border-left:0px; border-right:0px; border-bottom:0px; border-color:white;}
+
+div.nav_Architecture { float: left; width:84px; height:24px;background:#E5FF00; border-top:0px; border-left:5px; border-right:1px; border-bottom:0px; border-color:white; 
+font-size:13pt;}
+div.nav_Architecture:hover{background:white;
+                         -webkit-transform: rotate3d(-1,1,1, 25deg) }
+
+div.nav_Video { float: right;width:84px; height:24px;background:#F70000; border-top:0px; border-left:5px; border-right:0px; border-bottom:0px; border-color:white;
+font-size:17pt;  font-style:italic;  }
+div.nav_Video:hover{background:white;
+                         -webkit-transform: rotate3d(-1,1,1, 20deg) }
+
+/* Additional buttons Paintings_Slogans */
+div.button_holder_Paintings_Slogans    {width:170px;height:32px; background:white; padding-left:4px; padding-top:0px; border-top:0px; border-left:0px; border-right:0px; border-bottom:0px; border-color:white;}
+
+div.nav_Paintings { float: left; width:84px; height:30px;background:#10FF00; border-top:0px; border-left:5px; border-right:1px; border-bottom:0px; border-color:white; 
+font-size:16pt;}
+div.nav_Paintings:hover{background:white;
+                         -webkit-transform: rotate3d(-1,1,1, 25deg) }
+
+div.nav_Slogans  { float: right;width:84px; height:30px;background:#0010F2; border-top:0px; border-left:5px; border-right:0px; border-bottom:0px; border-color:white;
+font-size:15pt;  font-style:italic;  }
+div.nav_Slogans:hover{background:white;
+                         -webkit-transform: rotate3d(-1,1,1, 20deg) }
+
+/* Additional buttons Litho_Pen  */
+div.button_holder_Litho_Pen    {width:170px;height:32px; background:white; padding-left:4px; padding-top:0px; border-top:0px; border-left:0px; border-right:0px; border-bottom:0px; border-color:white;}
+
+div.nav_Litho { float: left; width:84px; height:30px;background:#5F00A8; border-top:0px; border-left:5px; border-right:1px; border-bottom:0px; border-color:white; 
+font-size:19pt;font-style:italic;}
+div.nav_Litho:hover{background:white;
+                         -webkit-transform: rotate3d(-1,1,1, 25deg) }
+
+div.nav_Pen  { float: right;width:84px; height:30px;background:#E6FF05; border-top:0px; border-left:5px; border-right:0px; border-bottom:0px; border-color:white;
+font-size:20pt;  font-style:bold;  }
+div.nav_Pen:hover{background:white;
+                         -webkit-transform: rotate3d(-1,1,1, 20deg) }
+
+/* Additional buttons Berlin */
+div.button_holder_Berlin   {width:170px;height:44px; background:white; padding-left:4px; padding-top:0px; border-top:0px; border-left:0px; border-right:0px; border-bottom:0px; border-color:white;}
+div.nav_Berlin   {width:166px;height:42px; background:#0010F2; padding-left:4px; padding-top:0px; border-top:0px; border-left:0px; border-right:0px; border-bottom:0px; border-color:white;
+font-size:30pt; font-style:bold;}
+div.nav_Berlin:hover{background:white;
+                         -webkit-transform: rotate3d(-1,1,1, 25deg) }
+
+/* Additional buttons Elizabeth_Poems */
+div.button_holder_Biennale_Kristina    {width:170px;height:32px; background:white; padding-left:4px; padding-top:0px; border-top:0px; border-left:0px; border-right:0px; border-bottom:0px; border-color:white;}
+
+
+div.nav_Biennale { float: left; width:84px; height:30px;background:#0007E5; border-top:0px; border-left:5px; border-right:1px; border-bottom:0px; border-color:white; 
+font-size:17pt;font-style:italic;}
+a.nav_Biennale { color: #00FC15; }
+div.nav_Biennale:hover{background:white;
+                         -webkit-transform: rotate3d(-1,1,1, 25deg) }
+
+div.nav_Kristina  { float: right;width:84px; height:30px;background:#EF0E86; border-top:0px; border-left:5px; border-right:0px; border-bottom:0px; border-color:white;
+font-size:18pt;   }
+div.nav_Kristina:hover{background:white;
+                         -webkit-transform: rotate3d(-1,1,1, 20deg) }
+
+/* Additional buttons Elizabeth_Poems */
+div.button_holder_Elizabeth_Poems    {width:170px;height:32px; background:white; padding-left:4px; padding-top:0px; border-top:0px; border-left:0px; border-right:0px; border-bottom:0px; border-color:white;}
+
+
+div.nav_Elizabeth { float: left; width:84px; height:30px;background:#F70000; border-top:0px; border-left:5px; border-right:1px; border-bottom:0px; border-color:white; 
+font-size:15pt;  }
+div.nav_Elizabeth:hover{background:white;
+                         -webkit-transform: rotate3d(-1,1,1, 25deg) }
+
+div.nav_Poems  { float: right;width:84px; height:30px;background:#0095E5; border-top:0px; border-left:5px; border-right:0px; border-bottom:0px; border-color:white;
+font-size:15pt;  font-style:italic; }
+div.nav_Poems:hover{background:white;
+                         -webkit-transform: rotate3d(-1,1,1, 20deg) }
+
+/* Additional buttons Reactions_Contact */
+div.button_holder_Reactions_Contact    {width:170px;height:32px; background:white; padding-left:4px; padding-top:0px; border-top:0px; border-left:0px; border-right:0px; border-bottom:0px; border-color:white;}
+
+
+div.nav_Reactions { float: left; width:84px; height:30px;background:#DD1CDD; border-top:0px; border-left:5px; border-right:1px; border-bottom:0px; border-color:white; 
+font-size:15pt;  }
+div.nav_Reactions:hover{background:white;
+                         -webkit-transform: rotate3d(-1,1,1, 25deg) }
+
+div.nav_Contact  { float: right;width:84px; height:30px;background:#FF908E; border-top:0px; border-left:5px; border-right:0px; border-bottom:0px; border-color:white;
+font-size:15pt;  font-style:italic; }
+div.nav_Contact:hover{background:white;
+                         -webkit-transform: rotate3d(-1,1,1, 20deg) }
+
+
+/* Additional buttons SongTexts_Stories */
+div.button_holder_SongTexts_Stories    {width:170px;height:40px; background:white; padding-left:4px; padding-top:0px; border-top:0px; border-left:0px; border-right:0px; border-bottom:0px; border-color:white;}
+
+
+div.nav_SongTexts { float: left; width:84px; height:38px;background:#1653FC; border-top:0px; border-left:5px; border-right:1px; border-bottom:0px; border-color:white; 
+font-size:23pt; font-style:bold }
+div.nav_SongTexts:hover{background:white;
+                         -webkit-transform: rotate3d(-1,1,1, 25deg) }
+
+div.nav_Stories  { float: right;width:84px; height:38px;background:#0010F2; border-top:0px; border-left:5px; border-right:0px; border-bottom:0px; border-color:white;
+font-size:17pt;  font-style:italic; }
+div.nav_Stories:hover{background:white;
+                         -webkit-transform: rotate3d(-1,1,1, 20deg) }
+
+/* Additional buttons MP3_News */
+div.button_holder_MP3_News    {width:170px;height:36px; background:white; padding-left:4px; padding-top:0px; border-top:0px; border-left:0px; border-right:0px; border-bottom:0px; border-color:white;}
+
+
+div.nav_MP3 { float: left; width:84px; height:34px;background:#5F00A8; border-top:0px; border-left:5px; border-right:1px; border-bottom:0px; border-color:white; 
+font-size:23pt; font-style:bold }
+div.nav_MP3:hover{background:white;
+                         -webkit-transform: rotate3d(-1,1,1, 25deg) }
+
+div.nav_News  { float: right;width:84px; height:34px;background:#10FF00; border-top:0px; border-left:5px; border-right:0px; border-bottom:0px; border-color:white;
+font-size:19pt;  font-style:italic; }
+div.nav_News:hover{background:white;
+                         -webkit-transform: rotate3d(-1,1,1, 20deg) }
+
+/* Additional buttons MovieScript_GroupieoftheWeek */
+div.button_holder_MovieScript_GroupieoftheWeek    {width:170px;height:36px; background:white; padding-left:4px; padding-top:0px; border-top:0px; border-left:0px; border-right:0px; border-bottom:0px; border-color:white;}
+
+
+div.nav_MovieScript { float: left; width:84px; height:34px;background:#E6FF05; border-top:0px; border-left:5px; border-right:1px; border-bottom:0px; border-color:white; 
+font-size:14pt; font-style:bold ;line-height:83%;}
+div.nav_MovieScript:hover{background:white;
+                         -webkit-transform: rotate3d(-1,1,1, 25deg) }
+
+div.nav_GroupieoftheWeek  { float: right;width:84px; height:34px;background:#FF1125; border-top:0px; border-left:5px; border-right:0px; border-bottom:0px; border-color:white;
+font-size:12pt;  font-style:italic;line-height:90%; }
+div.nav_GroupieoftheWeek:hover{background:white;
+                         -webkit-transform: rotate3d(-1,1,1, 20deg) }
+
+
+
+div.button_holder_Barcelona   {width:170px;height:38px; background:white; padding-left:4px; padding-top:0px; border-top:0px; border-left:0px; border-right:0px; border-bottom:0px; border-color:white;}
+div.nav_Barcelona    {width:166px;height:36px; background:#6CF0FC; padding-left:4px; padding-top:0px; border-top:0px; border-left:0px; border-right:0px; border-bottom:0px; border-color:white;
+font-size:24pt; font-style:italic}
+div.nav_Barcelona:hover{background:white;
+                         -webkit-transform: rotate3d(-1,1,1, 25deg) }
+
+div.button_holder_1    {width:170px;height:26px; background:white; padding-left:4px; padding-top:0px; border-top:0px; border-left:0px; border-right:0px; border-bottom:0px; border-color:white;}
+
+
+div.nav_Sculpture  { float: left; width:84px; height:24px;background:#1E0CD7; border-top:0px; border-left:5px; border-right:1px; border-bottom:0px; border-color:white; 
+font-size:15pt;  }
+div.nav_Sculpture:hover{background:white;
+                         -webkit-transform: rotate3d(-1,1,1, 25deg) }
+
+div.nav_Book  { float: right;width:84px; height:24px;background:#F38936; border-top:0px; border-left:5px; border-right:0px; border-bottom:0px; border-color:white;
+font-size:19pt;  font-style:italic; }
+div.nav_Book:hover{background:white;
+                         -webkit-transform: rotate3d(-1,1,1, 20deg) }
+
+
+div.button_holder_2    {width:170px;height:24px; background:white; padding-left:4px; padding-top:0px; border-top:0px; border-left:0px; border-right:0px; border-bottom:0px; border-color:white;}
+div.nav_KunstHal  { float: left; width:84px; height:22px;background:#FCF436; border-top:0px; border-left:5px; border-right:1px; border-bottom:0px; border-color:white;  }
+div.nav_KunstHal:hover{background:white;
+                         -webkit-transform: rotate3d(-1,1,1, 25deg) }
+
+div.nav_Grim_Museum  { float: right;width:84px; height:22px;background:#178592; border-top:0px; border-left:5px; border-right:1px; border-bottom:0px; border-color:white;font-size:16pt;  }
+div.nav_Grim_Museum:hover{background:white;
+                         -webkit-transform: rotate3d(-1,1,1, 20deg) }

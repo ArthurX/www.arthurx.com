@@ -1,0 +1,39 @@
+Movie Report
+------------
+
+Frame #    Frame Bytes    Total Bytes    Page
+-------    -----------    -----------    ---------------
+    1         26739          26739        Scene 1
+    2         27046          53785          2
+    3         15068          68853          3
+    4         20779          89632          4
+    5         28980         118612          5
+    6         21663         140275          6
+    7         22433         162708          7
+    8            49         162757          8
+
+Page                       Shape Bytes    Text Bytes
+-----------------------    -----------    ----------
+Scene 1                           0           654
+
+Embedded Objects                374             0
+
+Symbol                     Shape Bytes    Text Bytes
+-----------------------    -----------    ----------
+PlayButton                     1002             0
+RewindButton                    810             0
+StopButton                     1224             0
+
+Bitmap                     Compressed  Original    Compression
+-----------------------    ----------  ----------  ------------
+selfportrait_fat_small.png     22202     2136000   JPEG Quality=12
+Yogi_klein.png                 21502     2066400   JPEG Quality=12
+SelfPortrait_small.png         28801     2145600   JPEG Quality=12
+PinBallQueen1_Small.png        20541     2004000   JPEG Quality=12
+My_Father_small.png            14881     2109600   JPEG Quality=12
+DoctorHeinEpitaph_small.png     26810     1956000   JPEG Quality=12
+aunt_Ann_small.png             20389     2097600   JPEG Quality=12
+
+Font Name                  Bytes       Characters
+-----------------------    --------    -----------
+CG Times                     2858        ABDEFHMPQSYacefghilnoprtuy

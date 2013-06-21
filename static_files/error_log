@@ -1,0 +1,2 @@
+[01-Mar-2010 01:00:32] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'arthurcm'@'localhost' (using password: YES) in /home/thescars/public_html/Guestbook.php on line 62
+[01-Mar-2010 07:49:52] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'arthurcm'@'localhost' (using password: YES) in /home/thescars/public_html/Guestbook.php on line 62

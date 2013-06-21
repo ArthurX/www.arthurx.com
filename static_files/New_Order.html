@@ -1,0 +1,167 @@
+<HTML>
+<HEAD> 
+  <LINK REL="icon" HREF="images/mozilla-16.png" TYPE="image/png"> 
+ <link rel="shortcut icon" href="favicon.ico">
+   <TITLE>Create Mailto URLs</TITLE>
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+
+// CREATE A MAILTO URL OR MAILTO ANCHOR TAG
+function createMailto(sourceForm, targetField, urlType) {
+  var to      = elizabeth@thescars.com;
+
+  var subject = OrderFromWebShop;
+  var body    = sourceForm.body.value;
+  var linkText= sourceForm.linkText.value;
+  
+  if (linkText == "") {
+    linkText = "Link Text";
+  }
+  
+  var urltext = "";
+
+  // IF THE VALUE IS SET, INCLUDE IT IN THE URL
+  if (to != "") {
+    urltext += to;
+  }
+  else {
+    alert("Sorry, you must fill out the 'To' field");
+    sourceForm.to.focus();
+    return(1);
+  }
+  if (cc != "") {
+    urltext = addDelimiter(urltext);
+    urltext += "CC=" + cc;
+  }
+  if (bcc != "") {
+    urltext = addDelimiter(urltext);
+    urltext += "BCC=" + bcc;
+  }
+  if (subject != "") {
+    urltext = addDelimiter(urltext);
+    urltext += "Subject=" + escape(subject);
+  }
+  if (body != "") {
+    urltext = addDelimiter(urltext);
+    urltext += "Body=" + escape(body);
+  }
+  if (urlType == "url") {
+    urltext = "mailto:" + urltext;
+  }
+  else {
+    urltext = "<A HREF=\"mailto:" + urltext + "\">" + linkText + "</A>";
+  }
+
+  // PUT THE NEW URL IN THE FORM FIELD
+  targetField.value = urltext;
+
+  // GIVE THE FIELD FOCUS AND HIGHLIGHT THE TEXT -- 
+  // TO FACILITATE EASY COPYING AND PASTING OF THE NEW URL
+  targetField.focus();
+  targetField.select();
+  return(1);
+}
+
+
+// ADD THE "?" OR "&" NAME/VALUE SEPARATOR CHARACTER
+function addDelimiter(inputString) {
+  var inString = inputString;
+
+  // IF '?' NOT FOUND, THEN THIS IS THE FIRST NAME/VALUE PAIR
+  if (inString.indexOf("?") == -1) {
+    inString += "?";
+  }
+  // ELSE IT'S A SUBSEQUENT NAME/VALUE PAIR, SO ADD THE '&' CHARACTER
+  else {
+    inString += "&";
+  }
+  return inString;
+}
+
+
+// TEST THE MAILTO URL -- ASSIGN THE URL TO THE DOCUMENT LOCATION
+// TO POP UP THE MESSAGE WINDOW
+function testMailto(loc) {
+  var doc = loc;
+
+  // IF MAILTO URL IS EMBEDDED IN AN ANCHOR TAG
+  if (doc.indexOf("HREF=") != -1) {
+    // EXTRACT THE MAILTO URL FROM THE ANCHOR TAG
+    var doc = doc.substring(doc.indexOf("HREF=")+6, doc.indexOf(">")-1);
+  }
+
+  // ASSIGN THE MAILTO URL TO THE DOCUMENT (THIS WILL POP UP A MAIL WINDOW)
+  window.location = doc;
+}
+
+
+function viewMailto(mailtoText) {
+  alert("URL:\n\n" + mailtoText);
+}
+// -->
+</SCRIPT>
+
+</HEAD>
+<BODY>
+<FONT FACE="Arial, Helvetica" SIZE=-1>
+<CENTER><H1>Create a mailto: URL</H1></CENTER>
+<FORM NAME="mailtoForm">
+<CENTER>
+<TABLE BORDER=0 CELLSPACING=0 CELLPADDING=2 BGCOLOR="#ffff99" >
+<TR ALIGN="LEFT" VALIGN="TOP">
+<TD COLSPAN="4">
+<CENTER><B><FONT COLOR="#408080" SIZE=+1>Enter Message Details Here</FONT></B></CENTER></TD>
+</TR>
+<TR ALIGN="LEFT" VALIGN="TOP">
+<TD><FONT FACE="Arial, Helvetica" SIZE=-1><B>To:</B></TD>
+<TD><INPUT TYPE="text" NAME="to" SIZE=30 STYLE="background-color:'#ffcc66'"></TD>
+<TD><FONT FACE="Arial, Helvetica" SIZE=-1><B>Cc:</B></TD>
+<TD><INPUT TYPE="text" NAME="cc" SIZE=30 STYLE="background-color:'#ffcc66'"></TD>
+</TR>
+<TR ALIGN="LEFT" VALIGN="TOP">
+<TD ALIGN="LEFT"><FONT FACE="Arial, Helvetica" SIZE=-1><B>Bcc:</B></TD>
+<TD><INPUT TYPE="text" NAME="bcc" SIZE=30 STYLE="background-color:'#ffcc66'"></TD>
+<TD><FONT FACE="Arial, Helvetica" SIZE=-1><B>Subject:</B></TD>
+<TD><INPUT TYPE="text" NAME="subject" SIZE=30 STYLE="background-color:'#ffcc66'"></TD>
+</TR>
+<TR ALIGN="LEFT" VALIGN="TOP">
+<TD ALIGN="LEFT"><FONT FACE="Arial, Helvetica" SIZE=-1><B>Body:</B></TD>
+<TD COLSPAN="4"><TEXTAREA NAME="body" WRAP="VIRTUAL" COLS=63 ROWS=3 STYLE="background-color:'#ffcc66'"></TEXTAREA></TD>
+</TR>
+<TR ALIGN="LEFT" VALIGN="TOP">
+<TD ALIGN="LEFT"><FONT FACE="Arial, Helvetica" SIZE=-1><B>Link Text:</B></TD>
+<TD COLSPAN="3"><INPUT TYPE="text" NAME="linkText" SIZE=73 STYLE="background-color:'#ffcc66'"></TD>
+</TR>
+<TR>
+<TD COLSPAN="4">
+<CENTER>
+<INPUT TYPE="Reset" NAME="Clear" Value="Clear">
+<INPUT TYPE="button" NAME="CreateURL" VALUE="Create URL" onClick="createMailto(document.mailtoForm, document.mailtoForm.text, 'url')">
+<INPUT TYPE="button" NAME="CreateAnchor" VALUE="Create Link" onClick="createMailto(document.mailtoForm, document.mailtoForm.text, 'anchor')">
+</CENTER>
+</TD>
+</TR>
+<TR>
+<TD COLSPAN="4">
+<CENTER><FONT COLOR="#408080" SIZE=+1><B>Here is Your mailto: URL</B></FONT></CENTER>
+</TD>
+</TR>
+<TR>
+<TD ALIGN="LEFT"><FONT FACE="Arial, Helvetica" SIZE=-1><B>mailto URL:</B></TD>
+<TD COLSPAN="3"><INPUT TYPE="text" NAME="text" SIZE=73 STYLE="background-color:'#ffcc66'"></TD>
+</TR>
+<TR>
+<TD COLSPAN="4">
+<CENTER>
+<INPUT TYPE="button" NAME="Test" VALUE="Test URL" onClick="testMailto(document.mailtoForm.text.value)">
+<INPUT TYPE="button" NAME="View" VALUE="View URL" onClick="viewMailto(document.mailtoForm.text.value)">
+</CENTER>
+</TD>
+</TR>
+</TABLE>
+</CENTER>
+</FORM>
+</FONT>
+</BODY>
+</HTML>
+
