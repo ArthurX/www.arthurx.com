@@ -12,13 +12,13 @@ div.GoogleAds {position:absolute; left:1150px; top:435px; width:160px; height:60
 
 h1 { color: black ; font-family:"Times New Roman",  Sans-Serif ;  font-style:italic;font-size:25pt ;text-shadow: 4px 3px 10px #707070}
 h2 { color: black ; font-family:"Times New Roman",  Sans-Serif ;  font-style:italic;font-size:25pt ;text-shadow: 4px 3px 10px #707070}
-h3.photobody500 { color:black ; font-family:"Times New Roman",  Sans-Serif ;  font-style:italic;font-size:18pt ;text-shadow: 4px 3px 10px #707070}
+h3.photobody500 { color:white ; font-family:"Times New Roman",  Sans-Serif ;  font-style:italic;font-size:18pt ;text-shadow: 4px 3px 10px #707070}
 p::first-letter { font-size: 250%; font-weight: bold;  }
 p::first-line { font-weight: bold; }
 
 div.photobody {text-align:center; font-size:100%; font-style:italic; border: blue solid; padding: 30px; margin: 35px; width:400px; background-color:black;}
 div.photobody500 {text-align:center; font-size:100%; font-style:italic; border: blue ; border-size: 10; solid; padding: 30px; margin: 35px; width:500px; 
-                  background-color:black; 
+                  background-color:black; color:white;
                   /*border-radius: 22px ;-moz-border-radius: 20px ;-webkit-border-radius: 20px;*/
                   box-shadow: 6px 9px 35px #343434;
                   -moz-box-shadow: 6px 9px 35px #343434;
