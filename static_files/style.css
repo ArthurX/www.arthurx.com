@@ -27,6 +27,8 @@ div.photobody	img {width: 100%;}
 div.fright { float: right; }
 div.fleft { float: left; }
 
+div.china {width:900}
+
 /* table in index.html en News.html */
 table     { table-layout: fixed;}
 TD#cell1  { width: 230px ; border: 22px solid black;background: blue }
