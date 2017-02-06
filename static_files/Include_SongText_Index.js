@@ -2,6 +2,10 @@
 
 document.write("<div class=SongText_Index>");
 
+
+document.write("<a href=live@Amsterdam@Wolbodo_2017_Jan.html >live@Amsterdam</a><br><br>");
+
+document.write("<br>With video ::<br>");
 document.write("<a href=TextBuildingMovingSculptures.html >MovingSculptures</a><br>");
 document.write("<a href=TextGetMoving.html >GetMoving</a><br>");
 document.write("<a href=TextWeWantMore.html  >WeWantMore</a><br>"   );
@@ -10,30 +14,41 @@ document.write("<a href=TextTrain.html >Train Out</a><br>");
 document.write("<a href=TextHooga.html  >Hooga<a/><br>");
 document.write("<a href=TextLateAtNight.html  >LateAtNight<a/><br>");
 document.write("<a href=TextMountaVista.html  >HillDeMountaVista<a/><br>");
-document.write("<a href=TextAppDoor.html  >AppartmentDoor<a/><br>");
-document.write("<a href=TextThirteen.html  >Thirteen<a/><br>");
-document.write("<a href=TextBored.html  >Bored<a/><br>");
+
 document.write("<a href=TextParisAtNight.html >ParisAtNight</a><br>");
 document.write("<a href=TextIcyBroke.html >IcyBroke</a><br>");
-document.write("<a href=TextLostControl.html  >LostControl<a/><br>");
+
 document.write("<a href=TextTalkingToYou.html  >TalkingToYou</a><br>");
 document.write("<a href=TextGetNo.html  >CantGetNo<a/><br>");
-document.write("<a href=TextPitifull.html  >Pitifull<a/><br>");
+
 document.write("<a href=TextBBB.html  >BigBrightBrains<a/><br>");
-document.write("<a href=TextDeeplyDepressed.html  >BottomoftheOcean<a/><br>");
+
 document.write("<a href=TextDoctorFish.html  >DoctorFish<a/><br>");
-document.write("<a href=TextMoonLight.html  >MoonLight<a/><br>");
+
 document.write("<a href=TextMotherQueen.html  >MotherQueen<a/><br>");
 document.write("<a href=TextFlowerPicking.html  >FlowerPicking<a/><br>");
-document.write("<a href=TextRude.html  >RudeTonight<a/><br>");
-document.write("<a href=TextWaitingFar.html  >WaitingFarTooLong<a/><br>");
+document.write("<a href=TextRude.html>RudeTonight<a/><br>");
 
-document.write("<a href=TextVikings.html  >Vikings</a><br>"   );
-document.write("<a href=TextIdealAd.html  >IdealSillyAd</a><br>"   );
-document.write("<a href=TextYouCantChangeThat.html >YouCantChangeThat</a><br>"   );
-document.write("<a href=TextTheLastThingIwillDo.html >TheLastThingIwillDo</a><br>"   );
+
+
+
+
+document.write("<a href=TextIdealAd.html>IdealSillyAd</a><br>"   );
+
 document.write("<a href=TextParachute.html >Parachute</a><br>"   );
 
+document.write("<br>No video ::<br>");
+document.write("<a href=TextAppDoor.html  >AppartmentDoor<a/><br>");
+document.write("<a href=TextLostControl.html  >LostControl<a/><br>");
+document.write("<a href=TextThirteen.html  >Thirteen<a/><br>");
+document.write("<a href=TextBored.html  >Bored<a/><br>");
+document.write("<a href=TextVikings.html>Vikings</a><br>"   );
+document.write("<a href=TextPitifull.html  >Pitifull<a/><br>");
+document.write("<a href=TextYouCantChangeThat.html>YouCantChangeThat</a><br>"   );
+
+document.write("<a href=TextDeeplyDepressed.html  >BottomoftheOcean<a/><br>");
+document.write("<a href=TextMoonLight.html  >MoonLight<a/><br>");
+document.write("<a href=TextWaitingFar.html>WaitingFarTooLong<a/><br>");
 
 document.write("</div><div class=SongText_Image>");
 

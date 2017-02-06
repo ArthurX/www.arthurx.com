@@ -5,7 +5,7 @@ document.write("<br><br><br><br>");
 // additional buttons 1 line Tulip
 document.write("<DIV class=button_holder_Tulip >");
 document.write("<DIV class=nav_Tulip  >");
-document.write("<a href=Tulp.html>Tulip<b></b></a>  ");
+document.write("<a href=TextParisAtNight.html>&nbsp;<b>Songs + </b></a>  ");
 document.write("</DIV> ");
 document.write("</DIV> ");
 
@@ -98,7 +98,8 @@ document.write("</DIV> ");
 document.write("<DIV class=button_holder_SongTexts_Stories >");
 
 document.write("<DIV class=\" nav_SongTexts \" >");
-document.write("<a href=TextParisAtNight.html>&nbsp;<b>Songs Texts</b></a>  ");
+
+document.write("<a href=Tulp.html>Tulip<b></b></a>  ");
 document.write("</DIV> ");
 
 document.write("<DIV class=\"nav_Stories \">");
